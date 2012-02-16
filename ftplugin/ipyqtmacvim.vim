@@ -5,7 +5,7 @@
 " License:      BSD New
 " Requires:     MacVim 7.3, Mac OS X (osascript), IPython 0.12
 " Last Change:  2012-02-15
-" Version:      0.1
+" Version:      0.11
 "
 " Interface between MacVim and IPython Qt console for Mac.
 "
@@ -74,7 +74,7 @@ command -buffer         Send  call s:Send()
 
 nmap <buffer> <D-4> yy:Send<CR>
 vmap <buffer> <D-4> y:Send<CR>
-imap <buffer> <D-4> <ESC>y:Send<CR>gi
+imap <buffer> <D-4> <ESC>yy:Send<CR>gi
 
 nmap <buffer> <D-5> :let @*='run '.expand('%:p')<CR>:Send<CR>
 imap <buffer> <D-5> <ESC>:let @*='run '.expand('%:p')<CR>:Send<CR>gi

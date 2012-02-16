@@ -5,7 +5,7 @@ Maintainer:   Justin Kitzes <jkitzes@berkeley.edu>
 License:      BSD New
 Requires:     MacVim 7.3, Mac OS X (osascript), IPython 0.12
 Last Change:  2012-02-15
-Version:      0.1
+Version:      0.11
 
 Interface between MacVim and IPython Qt console for Mac.
 
